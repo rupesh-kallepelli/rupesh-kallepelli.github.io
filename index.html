@@ -1,123 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Rupesh Kallepelli - Software Engineer</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8" />
+<title>Rupesh Kallepelli - Senior Software Engineer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Senior Software Engineer | Java Backend | Spring Boot | Microservices | Docker | Kubernetes | CI/CD | Automation">
+<meta name="author" content="Rupesh Kallepelli">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Rupesh Kallepelli - Software Engineer Portfolio" />
+<meta property="og:description" content="Backend Developer | Microservices | Cloud | Automation" />
+<meta property="og:type" content="website" />
+
 <style>
 body{
   margin:0;
-  font-family:Arial;
+  font-family:Segoe UI,Roboto,Arial;
   background:#0f172a;
   color:white;
 }
+
 header{
-  background:#111827;
-  padding:50px 20px;
+  padding:70px 20px;
   text-align:center;
+  background:linear-gradient(135deg,#111827,#020617);
 }
-header h1{font-size:36px;margin:0;}
-header h2{font-size:18px;color:#9ca3af;}
-.container{max-width:1000px;margin:auto;padding:20px;}
-.section{margin-top:30px;}
+
+header h1{
+  font-size:40px;
+  margin:0;
+}
+
+header h2{
+  color:#9ca3af;
+  font-size:18px;
+}
+
+button{
+  padding:10px 18px;
+  border-radius:8px;
+  border:none;
+  font-size:14px;
+  cursor:pointer;
+}
+
+.btn-primary{
+  background:#38bdf8;
+  color:black;
+}
+.btn-primary:hover{background:#67e8f9;}
+
+.container{max-width:1100px;margin:auto;padding:20px;}
+.section{margin-top:40px;}
+
 .section h3{
   border-left:4px solid #38bdf8;
   padding-left:10px;
 }
+
 .card{
   background:#1f2937;
-  padding:15px;
-  border-radius:8px;
+  padding:18px;
+  border-radius:10px;
   margin-top:10px;
 }
+
 .skills span{
-  display:inline-block;
-  padding:6px 10px;
   background:#38bdf8;
-  border-radius:5px;
-  margin:5px 5px 0 0;
+  color:black;
+  padding:6px 10px;
+  border-radius:6px;
+  margin:5px;
+  display:inline-block;
   font-size:13px;
-  color:#000;
 }
+
+.project{
+  padding:12px;
+  background:#0b1220;
+  border-radius:8px;
+  margin-top:8px;
+}
+
 footer{
   text-align:center;
-  padding:20px;
-  margin-top:30px;
+  padding:25px;
   color:#9ca3af;
 }
-a{
-  color:#38bdf8;
-  text-decoration:none;
-}
+
+a{color:#38bdf8;text-decoration:none;}
 a:hover{color:#67e8f9;}
+
+.fade{
+  animation:fadeIn .8s ease-in-out;
+}
+
+@keyframes fadeIn{
+  from{opacity:0;transform:translateY(10px);}
+  to{opacity:1;transform:translateY(0);}
+}
 </style>
 </head>
 
 <body>
 
-<header>
+<header class="fade">
   <h1>Rupesh Kallepelli</h1>
-  <h2>Software Engineer | Java Backend | Spring Boot | Microservices | Docker | Kubernetes | CI/CD | Automation</h2>
+  <h2>Senior Software Engineer | Java Backend | Microservices | Cloud | Automation</h2>
   <p>Pune, Maharashtra, India</p>
+  <br>
+  <a href="https://www.linkedin.com/in/rupesh-kallepelli" target="_blank">
+    <button class="btn-primary">Visit LinkedIn</button>
+  </a>
+  <a href="Rupesh_Kallepelli_Resume.pdf" download>
+    <button>Download Resume</button>
+  </a>
 </header>
 
 <div class="container">
 
-  <div class="section">
+  <div class="section fade">
     <h3>About Me</h3>
     <div class="card">
       <p>
-      Highly motivated Senior Software Engineer (Backend) with 3+ years of experience designing, developing, and deploying
-      microservices-based Java applications, CI/CD pipelines and automation solutions in enterprise banking environments.
+      Senior Software Engineer with 3+ years experience in Java Backend Development, Microservices, REST APIs,
+      CI/CD automation and cloud deployments. Delivered scalable banking solutions with Spring Boot, Kubernetes,
+      Docker, Kafka and Jenkins while improving performance, reliability and automation efficiency.
       </p>
     </div>
   </div>
 
-  <div class="section">
+  <div class="section fade">
     <h3>Skills</h3>
     <div class="card skills">
-      <span>Java</span>
-      <span>Spring Boot</span>
-      <span>Microservices</span>
-      <span>REST APIs</span>
-      <span>Docker</span>
-      <span>Kubernetes</span>
-      <span>OpenShift</span>
-      <span>Jenkins CI/CD</span>
-      <span>Kafka</span>
-      <span>Selenium</span>
-      <span>Cucumber</span>
-      <span>Serenity</span>
+      <span>Java</span><span>Spring Boot</span><span>Microservices</span>
+      <span>REST APIs</span><span>Docker</span><span>Kubernetes</span>
+      <span>OpenShift</span><span>Jenkins CI/CD</span><span>Kafka</span>
+      <span>Selenium</span><span>Cucumber</span><span>Serenity</span>
       <span>Oracle / MySQL</span>
     </div>
   </div>
 
-  <div class="section">
+  <div class="section fade">
     <h3>Experience</h3>
 
     <div class="card">
       <b>Senior Software Engineer – HCLTech (Jan 2025 – Present)</b>
-      <p>Building Spring Boot microservices • Kubernetes/OpenShift deployments • Performance & CI/CD improvements</p>
+      <p>Microservices | Kubernetes | Performance Engineering | CI/CD</p>
     </div>
 
     <div class="card">
       <b>Software Engineer – HCLTech (Jan 2023 – Jan 2025)</b>
-      <p>REST APIs • Kafka • Automation • Cloud-native migration • Jenkins + Docker + K8s CI/CD</p>
+      <p>Spring Boot | REST APIs | Kafka | Automation | DevOps Engineering</p>
     </div>
 
     <div class="card">
       <b>Project Intern – HCLTech (Jan 2022 – Dec 2022)</b>
-      <p>Java development • Automation • CI/CD foundations • Banking domain exposure</p>
+      <p>Java Development | Automation | CI/CD | Banking Domain</p>
     </div>
-
   </div>
 
-  <div class="section">
+  <div class="section fade">
+    <h3>Highlighted Projects</h3>
+
+    <div class="project">
+      <b>Microservices Modernization</b>
+      <p>Migrated legacy applications to Spring Boot microservices, improving reliability & scalability.</p>
+    </div>
+
+    <div class="project">
+      <b>Kafka Transaction Alerts</b>
+      <p>Implemented Kafka-based real-time alerting for banking transactions.</p>
+    </div>
+
+    <div class="project">
+      <b>Automation Framework</b>
+      <p>Built CI/CD integrated automation pipelines using Selenium, Serenity & Jenkins.</p>
+    </div>
+  </div>
+
+  <div class="section fade">
     <h3>Contact</h3>
     <div class="card">
       📧 Email: <a href="mailto:kallepallirupesh@gmail.com">kallepallirupesh@gmail.com</a><br>
       📞 Phone: 8074210687<br>
-      🔗 LinkedIn: <a href="https://www.linkedin.com/in/rupeshkallepelli" target="_blank">linkedin.com/in/rupeshkallepelli</a>
+      🔗 LinkedIn: <a href="https://www.linkedin.com/in/rupesh-kallepelli" target="_blank">linkedin.com/in/rupeshkallepelli</a>
     </div>
   </div>
 
